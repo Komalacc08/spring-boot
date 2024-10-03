@@ -3,7 +3,7 @@ spring:
     name: EMSApplication
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: mysql://localhost:3307/ems_data_jpa?createDatabaseIfNotExist=true
+    url: jdbc:mysql://localhost:3306/ems_data_jpa?createDatabaseIfNotExist=true
     username: root
     password: root
   jpa:
